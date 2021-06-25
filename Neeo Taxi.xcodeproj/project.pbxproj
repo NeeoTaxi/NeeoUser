@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1E65FB926862B6000FC9CB9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E65FB826862B6000FC9CB9 /* MapKit.framework */; };
+		E22028D9258690FE00BAD46A /* SideBarTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22028D8258690FE00BAD46A /* SideBarTVC.swift */; };
+		E22028DE2586910300BAD46A /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22028DD2586910300BAD46A /* SideBarVC.swift */; };
+		E22028E825869C1900BAD46A /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22028E325869C1900BAD46A /* PaymentVC.swift */; };
+		E22028E925869C1900BAD46A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22028E425869C1900BAD46A /* ProfileVC.swift */; };
+		E22028EA25869C1900BAD46A /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22028E525869C1900BAD46A /* RatingVC.swift */; };
+		E22028EB25869C1900BAD46A /* ResetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22028E625869C1900BAD46A /* ResetVC.swift */; };
+		E2490DF0267F5FF200D3A519 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2490DEF267F5FF200D3A519 /* HistoryVC.swift */; };
+		E24E80C1268560640028F792 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24E80C0268560640028F792 /* HistoryCell.swift */; };
+		E26A9E35256D5E09004BDEBE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A9E34256D5E09004BDEBE /* LoginVC.swift */; };
+		E26A9E3A256D5E17004BDEBE /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A9E39256D5E17004BDEBE /* VerificationVC.swift */; };
+		E26A9E3F256D5E25004BDEBE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A9E3E256D5E25004BDEBE /* HomeVC.swift */; };
+		E26A9E44256D609B004BDEBE /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = E26A9E43256D609B004BDEBE /* style.json */; };
+		E2CBB816268553280081E37D /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CBB815268553280081E37D /* PaymentCell.swift */; };
+		E2FB7DB4256D3E8A009CB7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7DB3256D3E8A009CB7D6 /* AppDelegate.swift */; };
+		E2FB7DB8256D3E8A009CB7D6 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7DB7256D3E8A009CB7D6 /* FirstVC.swift */; };
+		E2FB7DBB256D3E8A009CB7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7DB9256D3E8A009CB7D6 /* Main.storyboard */; };
+		E2FB7DBD256D3E8C009CB7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7DBC256D3E8C009CB7D6 /* Assets.xcassets */; };
+		E2FB7DC0256D3E8C009CB7D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7DBE256D3E8C009CB7D6 /* LaunchScreen.storyboard */; };
+		E2FB7DCB256D3E8D009CB7D6 /* Neeo_TaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7DCA256D3E8D009CB7D6 /* Neeo_TaxiTests.swift */; };
+		E2FB7DD6256D3E8D009CB7D6 /* Neeo_TaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7DD5256D3E8D009CB7D6 /* Neeo_TaxiUITests.swift */; };
+		E2FB7E1E256D44A9009CB7D6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E19256D44A7009CB7D6 /* Helpers.swift */; };
+		E2FB7E1F256D44A9009CB7D6 /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E1A256D44A8009CB7D6 /* SelfSizedTableView.swift */; };
+		E2FB7E21256D44A9009CB7D6 /* FLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E1C256D44A9009CB7D6 /* FLocationManager.swift */; };
+		E2FB7E22256D44A9009CB7D6 /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E1D256D44A9009CB7D6 /* ConnectionCheck.swift */; };
+		E2FB7E2A256D44B7009CB7D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E29256D44B7009CB7D6 /* User.swift */; };
+		E2FB7E34256D489D009CB7D6 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E14256D4495009CB7D6 /* BaseVC.swift */; };
+		E2FB7ECB256D4C4D009CB7D6 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7ECA256D4C4D009CB7D6 /* splash.mp4 */; };
+		E2FB7ED0256D4D58009CB7D6 /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7ECF256D4D58009CB7D6 /* OptionsVC.swift */; };
+		E2FB7ED5256D4EB1009CB7D6 /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7ED4256D4EB1009CB7D6 /* OrderVC.swift */; };
+		E2FB7EDA256D4FF3009CB7D6 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7ED9256D4FF3009CB7D6 /* SignUpVC.swift */; };
+		E2FB7EF1256D52A3009CB7D6 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EDF256D529E009CB7D6 /* SF-Pro-Display-HeavyItalic.otf */; };
+		E2FB7EF2256D52A3009CB7D6 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE0256D529E009CB7D6 /* SF-Pro-Display-Medium.otf */; };
+		E2FB7EF3256D52A3009CB7D6 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE1256D529F009CB7D6 /* SF-Pro-Display-Thin.otf */; };
+		E2FB7EF4256D52A3009CB7D6 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE2256D529F009CB7D6 /* SF-Pro-Display-Bold.otf */; };
+		E2FB7EF5256D52A3009CB7D6 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE3256D529F009CB7D6 /* SF-Pro-Display-Regular.otf */; };
+		E2FB7EF6256D52A3009CB7D6 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE4256D529F009CB7D6 /* SF-Pro-Display-Light.otf */; };
+		E2FB7EF7256D52A3009CB7D6 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE5256D52A0009CB7D6 /* SF-Pro-Display-BoldItalic.otf */; };
+		E2FB7EF8256D52A3009CB7D6 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE6256D52A0009CB7D6 /* SF-Pro-Display-ThinItalic.otf */; };
+		E2FB7EF9256D52A3009CB7D6 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE7256D52A0009CB7D6 /* SF-Pro-Display-Ultralight.otf */; };
+		E2FB7EFA256D52A3009CB7D6 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE8256D52A1009CB7D6 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		E2FB7EFB256D52A3009CB7D6 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EE9256D52A1009CB7D6 /* SF-Pro-Display-Heavy.otf */; };
+		E2FB7EFC256D52A3009CB7D6 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EEA256D52A1009CB7D6 /* SF-Pro-Display-Semibold.otf */; };
+		E2FB7EFD256D52A3009CB7D6 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EEB256D52A1009CB7D6 /* SF-Pro-Display-Black.otf */; };
+		E2FB7EFE256D52A3009CB7D6 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EEC256D52A2009CB7D6 /* SF-Pro-Display-MediumItalic.otf */; };
+		E2FB7EFF256D52A3009CB7D6 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EED256D52A2009CB7D6 /* SF-Pro-Display-RegularItalic.otf */; };
+		E2FB7F00256D52A3009CB7D6 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EEE256D52A2009CB7D6 /* SF-Pro-Display-BlackItalic.otf */; };
+		E2FB7F01256D52A3009CB7D6 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EEF256D52A2009CB7D6 /* SF-Pro-Display-LightItalic.otf */; };
+		E2FB7F02256D52A3009CB7D6 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2FB7EF0256D52A3009CB7D6 /* SF-Pro-Display-UltralightItalic.otf */; };
+		EC3E5C7DDA833083BE7DBDF3 /* Pods_Neeo_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA71C6BB41BF9E0C61D422B /* Pods_Neeo_Taxi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2FB7DC7256D3E8D009CB7D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FB7DA8256D3E8A009CB7D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2FB7DAF256D3E8A009CB7D6;
+			remoteInfo = "Neeo Taxi";
+		};
+		E2FB7DD2256D3E8D009CB7D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FB7DA8256D3E8A009CB7D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2FB7DAF256D3E8A009CB7D6;
+			remoteInfo = "Neeo Taxi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA71C6BB41BF9E0C61D422B /* Pods_Neeo_Taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neeo_Taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		399C4D9A736822D39F23AEC3 /* Pods-Neeo Taxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neeo Taxi.release.xcconfig"; path = "Target Support Files/Pods-Neeo Taxi/Pods-Neeo Taxi.release.xcconfig"; sourceTree = "<group>"; };
+		460782C9C4C76BA619E99D38 /* Pods-Neeo Taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neeo Taxi.debug.xcconfig"; path = "Target Support Files/Pods-Neeo Taxi/Pods-Neeo Taxi.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E65FB826862B6000FC9CB9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E22028D8258690FE00BAD46A /* SideBarTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTVC.swift; sourceTree = "<group>"; };
+		E22028DD2586910300BAD46A /* SideBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
+		E22028E325869C1900BAD46A /* PaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		E22028E425869C1900BAD46A /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E22028E525869C1900BAD46A /* RatingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
+		E22028E625869C1900BAD46A /* ResetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetVC.swift; sourceTree = "<group>"; };
+		E2490DEF267F5FF200D3A519 /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		E24E80C0268560640028F792 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		E26A9E34256D5E09004BDEBE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E26A9E39256D5E17004BDEBE /* VerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
+		E26A9E3E256D5E25004BDEBE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E26A9E43256D609B004BDEBE /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		E2CBB815268553280081E37D /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		E2FB7DB0256D3E8A009CB7D6 /* Neeo Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neeo Taxi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FB7DB3256D3E8A009CB7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2FB7DB7256D3E8A009CB7D6 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		E2FB7DBA256D3E8A009CB7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2FB7DBC256D3E8C009CB7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2FB7DBF256D3E8C009CB7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2FB7DC1256D3E8C009CB7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FB7DC6256D3E8D009CB7D6 /* Neeo TaxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neeo TaxiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FB7DCA256D3E8D009CB7D6 /* Neeo_TaxiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neeo_TaxiTests.swift; sourceTree = "<group>"; };
+		E2FB7DCC256D3E8D009CB7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FB7DD1256D3E8D009CB7D6 /* Neeo TaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neeo TaxiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FB7DD5256D3E8D009CB7D6 /* Neeo_TaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neeo_TaxiUITests.swift; sourceTree = "<group>"; };
+		E2FB7DD7256D3E8D009CB7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FB7E14256D4495009CB7D6 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		E2FB7E19256D44A7009CB7D6 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		E2FB7E1A256D44A8009CB7D6 /* SelfSizedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
+		E2FB7E1C256D44A9009CB7D6 /* FLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLocationManager.swift; sourceTree = "<group>"; };
+		E2FB7E1D256D44A9009CB7D6 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionCheck.swift; sourceTree = "<group>"; };
+		E2FB7E29256D44B7009CB7D6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E2FB7E7A256D49BD009CB7D6 /* Neeo Taxi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Neeo Taxi-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2FB7ECA256D4C4D009CB7D6 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
+		E2FB7ECF256D4D58009CB7D6 /* OptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsVC.swift; sourceTree = "<group>"; };
+		E2FB7ED4256D4EB1009CB7D6 /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
+		E2FB7ED9256D4FF3009CB7D6 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		E2FB7EDF256D529E009CB7D6 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		E2FB7EE0256D529E009CB7D6 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		E2FB7EE1256D529F009CB7D6 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		E2FB7EE2256D529F009CB7D6 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		E2FB7EE3256D529F009CB7D6 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		E2FB7EE4256D529F009CB7D6 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		E2FB7EE5256D52A0009CB7D6 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		E2FB7EE6256D52A0009CB7D6 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		E2FB7EE7256D52A0009CB7D6 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		E2FB7EE8256D52A1009CB7D6 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		E2FB7EE9256D52A1009CB7D6 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		E2FB7EEA256D52A1009CB7D6 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		E2FB7EEB256D52A1009CB7D6 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		E2FB7EEC256D52A2009CB7D6 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		E2FB7EED256D52A2009CB7D6 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		E2FB7EEE256D52A2009CB7D6 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		E2FB7EEF256D52A2009CB7D6 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		E2FB7EF0256D52A3009CB7D6 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2FB7DAD256D3E8A009CB7D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E65FB926862B6000FC9CB9 /* MapKit.framework in Frameworks */,
+				EC3E5C7DDA833083BE7DBDF3 /* Pods_Neeo_Taxi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FB7DC3256D3E8D009CB7D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FB7DCE256D3E8D009CB7D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1594C92AAA76E9062D71FB2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				460782C9C4C76BA619E99D38 /* Pods-Neeo Taxi.debug.xcconfig */,
+				399C4D9A736822D39F23AEC3 /* Pods-Neeo Taxi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2CBB814268553160081E37D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E2CBB815268553280081E37D /* PaymentCell.swift */,
+				E24E80C0268560640028F792 /* HistoryCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E2FB7DA7256D3E8A009CB7D6 = {
+			isa = PBXGroup;
+			children = (
+				E2FB7DB2256D3E8A009CB7D6 /* Neeo Taxi */,
+				E2FB7DC9256D3E8D009CB7D6 /* Neeo TaxiTests */,
+				E2FB7DD4256D3E8D009CB7D6 /* Neeo TaxiUITests */,
+				E2FB7DB1256D3E8A009CB7D6 /* Products */,
+				1594C92AAA76E9062D71FB2E /* Pods */,
+				F98C74F9CA8A9347CABFA1C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2FB7DB1256D3E8A009CB7D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2FB7DB0256D3E8A009CB7D6 /* Neeo Taxi.app */,
+				E2FB7DC6256D3E8D009CB7D6 /* Neeo TaxiTests.xctest */,
+				E2FB7DD1256D3E8D009CB7D6 /* Neeo TaxiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FB7DB2256D3E8A009CB7D6 /* Neeo Taxi */ = {
+			isa = PBXGroup;
+			children = (
+				E2FB7DBC256D3E8C009CB7D6 /* Assets.xcassets */,
+				E2FB7DC1256D3E8C009CB7D6 /* Info.plist */,
+				E2FB7E7A256D49BD009CB7D6 /* Neeo Taxi-Bridging-Header.h */,
+				E2FB7ECA256D4C4D009CB7D6 /* splash.mp4 */,
+				E2FB7EDE256D528C009CB7D6 /* Fonts */,
+				E2FB7DF2256D3EF4009CB7D6 /* Supporting Files */,
+				E2FB7DF3256D3F0E009CB7D6 /* Third Party */,
+				E2FB7DF1256D3EE9009CB7D6 /* Model */,
+				E2FB7DED256D3EC0009CB7D6 /* Controller */,
+				E2FB7DE6256D3E95009CB7D6 /* View */,
+			);
+			path = "Neeo Taxi";
+			sourceTree = "<group>";
+		};
+		E2FB7DC9256D3E8D009CB7D6 /* Neeo TaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2FB7DCA256D3E8D009CB7D6 /* Neeo_TaxiTests.swift */,
+				E2FB7DCC256D3E8D009CB7D6 /* Info.plist */,
+			);
+			path = "Neeo TaxiTests";
+			sourceTree = "<group>";
+		};
+		E2FB7DD4256D3E8D009CB7D6 /* Neeo TaxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2FB7DD5256D3E8D009CB7D6 /* Neeo_TaxiUITests.swift */,
+				E2FB7DD7256D3E8D009CB7D6 /* Info.plist */,
+			);
+			path = "Neeo TaxiUITests";
+			sourceTree = "<group>";
+		};
+		E2FB7DE6256D3E95009CB7D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2CBB814268553160081E37D /* Cell */,
+				E22028D8258690FE00BAD46A /* SideBarTVC.swift */,
+				E2FB7DB9256D3E8A009CB7D6 /* Main.storyboard */,
+				E2FB7DBE256D3E8C009CB7D6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2FB7DED256D3EC0009CB7D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E22028DD2586910300BAD46A /* SideBarVC.swift */,
+				E2FB7DB3256D3E8A009CB7D6 /* AppDelegate.swift */,
+				E2FB7E14256D4495009CB7D6 /* BaseVC.swift */,
+				E2FB7DB7256D3E8A009CB7D6 /* FirstVC.swift */,
+				E2FB7ECF256D4D58009CB7D6 /* OptionsVC.swift */,
+				E2FB7ED4256D4EB1009CB7D6 /* OrderVC.swift */,
+				E2FB7ED9256D4FF3009CB7D6 /* SignUpVC.swift */,
+				E26A9E34256D5E09004BDEBE /* LoginVC.swift */,
+				E26A9E39256D5E17004BDEBE /* VerificationVC.swift */,
+				E26A9E3E256D5E25004BDEBE /* HomeVC.swift */,
+				E22028E325869C1900BAD46A /* PaymentVC.swift */,
+				E22028E425869C1900BAD46A /* ProfileVC.swift */,
+				E22028E525869C1900BAD46A /* RatingVC.swift */,
+				E22028E625869C1900BAD46A /* ResetVC.swift */,
+				E2490DEF267F5FF200D3A519 /* HistoryVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2FB7DF1256D3EE9009CB7D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2FB7E29256D44B7009CB7D6 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2FB7DF2256D3EF4009CB7D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FB7E1D256D44A9009CB7D6 /* ConnectionCheck.swift */,
+				E2FB7E1C256D44A9009CB7D6 /* FLocationManager.swift */,
+				E2FB7E19256D44A7009CB7D6 /* Helpers.swift */,
+				E2FB7E1A256D44A8009CB7D6 /* SelfSizedTableView.swift */,
+				E26A9E43256D609B004BDEBE /* style.json */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2FB7DF3256D3F0E009CB7D6 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		E2FB7EDE256D528C009CB7D6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E2FB7EEB256D52A1009CB7D6 /* SF-Pro-Display-Black.otf */,
+				E2FB7EEE256D52A2009CB7D6 /* SF-Pro-Display-BlackItalic.otf */,
+				E2FB7EE2256D529F009CB7D6 /* SF-Pro-Display-Bold.otf */,
+				E2FB7EE5256D52A0009CB7D6 /* SF-Pro-Display-BoldItalic.otf */,
+				E2FB7EE9256D52A1009CB7D6 /* SF-Pro-Display-Heavy.otf */,
+				E2FB7EDF256D529E009CB7D6 /* SF-Pro-Display-HeavyItalic.otf */,
+				E2FB7EE4256D529F009CB7D6 /* SF-Pro-Display-Light.otf */,
+				E2FB7EEF256D52A2009CB7D6 /* SF-Pro-Display-LightItalic.otf */,
+				E2FB7EE0256D529E009CB7D6 /* SF-Pro-Display-Medium.otf */,
+				E2FB7EEC256D52A2009CB7D6 /* SF-Pro-Display-MediumItalic.otf */,
+				E2FB7EE3256D529F009CB7D6 /* SF-Pro-Display-Regular.otf */,
+				E2FB7EED256D52A2009CB7D6 /* SF-Pro-Display-RegularItalic.otf */,
+				E2FB7EEA256D52A1009CB7D6 /* SF-Pro-Display-Semibold.otf */,
+				E2FB7EE8256D52A1009CB7D6 /* SF-Pro-Display-SemiboldItalic.otf */,
+				E2FB7EE1256D529F009CB7D6 /* SF-Pro-Display-Thin.otf */,
+				E2FB7EE6256D52A0009CB7D6 /* SF-Pro-Display-ThinItalic.otf */,
+				E2FB7EE7256D52A0009CB7D6 /* SF-Pro-Display-Ultralight.otf */,
+				E2FB7EF0256D52A3009CB7D6 /* SF-Pro-Display-UltralightItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F98C74F9CA8A9347CABFA1C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E65FB826862B6000FC9CB9 /* MapKit.framework */,
+				0DA71C6BB41BF9E0C61D422B /* Pods_Neeo_Taxi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2FB7DAF256D3E8A009CB7D6 /* Neeo Taxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FB7DDA256D3E8D009CB7D6 /* Build configuration list for PBXNativeTarget "Neeo Taxi" */;
+			buildPhases = (
+				F986F7C09675E613163DF6FC /* [CP] Check Pods Manifest.lock */,
+				E2FB7DAC256D3E8A009CB7D6 /* Sources */,
+				E2FB7DAD256D3E8A009CB7D6 /* Frameworks */,
+				E2FB7DAE256D3E8A009CB7D6 /* Resources */,
+				AADBC0103E9938B761349878 /* [CP] Embed Pods Frameworks */,
+				B83183D98A878A22B54DAD74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neeo Taxi";
+			productName = "Neeo Taxi";
+			productReference = E2FB7DB0256D3E8A009CB7D6 /* Neeo Taxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2FB7DC5256D3E8D009CB7D6 /* Neeo TaxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FB7DDD256D3E8D009CB7D6 /* Build configuration list for PBXNativeTarget "Neeo TaxiTests" */;
+			buildPhases = (
+				E2FB7DC2256D3E8D009CB7D6 /* Sources */,
+				E2FB7DC3256D3E8D009CB7D6 /* Frameworks */,
+				E2FB7DC4256D3E8D009CB7D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2FB7DC8256D3E8D009CB7D6 /* PBXTargetDependency */,
+			);
+			name = "Neeo TaxiTests";
+			productName = "Neeo TaxiTests";
+			productReference = E2FB7DC6256D3E8D009CB7D6 /* Neeo TaxiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2FB7DD0256D3E8D009CB7D6 /* Neeo TaxiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FB7DE0256D3E8D009CB7D6 /* Build configuration list for PBXNativeTarget "Neeo TaxiUITests" */;
+			buildPhases = (
+				E2FB7DCD256D3E8D009CB7D6 /* Sources */,
+				E2FB7DCE256D3E8D009CB7D6 /* Frameworks */,
+				E2FB7DCF256D3E8D009CB7D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2FB7DD3256D3E8D009CB7D6 /* PBXTargetDependency */,
+			);
+			name = "Neeo TaxiUITests";
+			productName = "Neeo TaxiUITests";
+			productReference = E2FB7DD1256D3E8D009CB7D6 /* Neeo TaxiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2FB7DA8256D3E8A009CB7D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					E2FB7DAF256D3E8A009CB7D6 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					E2FB7DC5256D3E8D009CB7D6 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E2FB7DAF256D3E8A009CB7D6;
+					};
+					E2FB7DD0256D3E8D009CB7D6 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E2FB7DAF256D3E8A009CB7D6;
+					};
+				};
+			};
+			buildConfigurationList = E2FB7DAB256D3E8A009CB7D6 /* Build configuration list for PBXProject "Neeo Taxi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2FB7DA7256D3E8A009CB7D6;
+			productRefGroup = E2FB7DB1256D3E8A009CB7D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2FB7DAF256D3E8A009CB7D6 /* Neeo Taxi */,
+				E2FB7DC5256D3E8D009CB7D6 /* Neeo TaxiTests */,
+				E2FB7DD0256D3E8D009CB7D6 /* Neeo TaxiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2FB7DAE256D3E8A009CB7D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FB7EFA256D52A3009CB7D6 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				E2FB7EF3256D52A3009CB7D6 /* SF-Pro-Display-Thin.otf in Resources */,
+				E2FB7EF2256D52A3009CB7D6 /* SF-Pro-Display-Medium.otf in Resources */,
+				E2FB7ECB256D4C4D009CB7D6 /* splash.mp4 in Resources */,
+				E2FB7EFE256D52A3009CB7D6 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				E2FB7DC0256D3E8C009CB7D6 /* LaunchScreen.storyboard in Resources */,
+				E2FB7EF8256D52A3009CB7D6 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				E2FB7F02256D52A3009CB7D6 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				E2FB7DBD256D3E8C009CB7D6 /* Assets.xcassets in Resources */,
+				E26A9E44256D609B004BDEBE /* style.json in Resources */,
+				E2FB7DBB256D3E8A009CB7D6 /* Main.storyboard in Resources */,
+				E2FB7EFC256D52A3009CB7D6 /* SF-Pro-Display-Semibold.otf in Resources */,
+				E2FB7EF6256D52A3009CB7D6 /* SF-Pro-Display-Light.otf in Resources */,
+				E2FB7EF7256D52A3009CB7D6 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				E2FB7EF4256D52A3009CB7D6 /* SF-Pro-Display-Bold.otf in Resources */,
+				E2FB7EFB256D52A3009CB7D6 /* SF-Pro-Display-Heavy.otf in Resources */,
+				E2FB7EF5256D52A3009CB7D6 /* SF-Pro-Display-Regular.otf in Resources */,
+				E2FB7F00256D52A3009CB7D6 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				E2FB7EF1256D52A3009CB7D6 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				E2FB7EFD256D52A3009CB7D6 /* SF-Pro-Display-Black.otf in Resources */,
+				E2FB7EFF256D52A3009CB7D6 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				E2FB7EF9256D52A3009CB7D6 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				E2FB7F01256D52A3009CB7D6 /* SF-Pro-Display-LightItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FB7DC4256D3E8D009CB7D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FB7DCF256D3E8D009CB7D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AADBC0103E9938B761349878 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neeo Taxi/Pods-Neeo Taxi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neeo Taxi/Pods-Neeo Taxi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neeo Taxi/Pods-Neeo Taxi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83183D98A878A22B54DAD74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neeo Taxi/Pods-Neeo Taxi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neeo Taxi/Pods-Neeo Taxi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neeo Taxi/Pods-Neeo Taxi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F986F7C09675E613163DF6FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neeo Taxi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2FB7DAC256D3E8A009CB7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FB7DB8256D3E8A009CB7D6 /* FirstVC.swift in Sources */,
+				E26A9E3F256D5E25004BDEBE /* HomeVC.swift in Sources */,
+				E2FB7ED0256D4D58009CB7D6 /* OptionsVC.swift in Sources */,
+				E22028E925869C1900BAD46A /* ProfileVC.swift in Sources */,
+				E22028EB25869C1900BAD46A /* ResetVC.swift in Sources */,
+				E22028D9258690FE00BAD46A /* SideBarTVC.swift in Sources */,
+				E2CBB816268553280081E37D /* PaymentCell.swift in Sources */,
+				E26A9E35256D5E09004BDEBE /* LoginVC.swift in Sources */,
+				E2490DF0267F5FF200D3A519 /* HistoryVC.swift in Sources */,
+				E2FB7E21256D44A9009CB7D6 /* FLocationManager.swift in Sources */,
+				E22028EA25869C1900BAD46A /* RatingVC.swift in Sources */,
+				E2FB7EDA256D4FF3009CB7D6 /* SignUpVC.swift in Sources */,
+				E2FB7DB4256D3E8A009CB7D6 /* AppDelegate.swift in Sources */,
+				E2FB7E34256D489D009CB7D6 /* BaseVC.swift in Sources */,
+				E26A9E3A256D5E17004BDEBE /* VerificationVC.swift in Sources */,
+				E24E80C1268560640028F792 /* HistoryCell.swift in Sources */,
+				E2FB7E2A256D44B7009CB7D6 /* User.swift in Sources */,
+				E2FB7E1F256D44A9009CB7D6 /* SelfSizedTableView.swift in Sources */,
+				E22028E825869C1900BAD46A /* PaymentVC.swift in Sources */,
+				E2FB7E22256D44A9009CB7D6 /* ConnectionCheck.swift in Sources */,
+				E22028DE2586910300BAD46A /* SideBarVC.swift in Sources */,
+				E2FB7E1E256D44A9009CB7D6 /* Helpers.swift in Sources */,
+				E2FB7ED5256D4EB1009CB7D6 /* OrderVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FB7DC2256D3E8D009CB7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FB7DCB256D3E8D009CB7D6 /* Neeo_TaxiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FB7DCD256D3E8D009CB7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FB7DD6256D3E8D009CB7D6 /* Neeo_TaxiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2FB7DC8256D3E8D009CB7D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2FB7DAF256D3E8A009CB7D6 /* Neeo Taxi */;
+			targetProxy = E2FB7DC7256D3E8D009CB7D6 /* PBXContainerItemProxy */;
+		};
+		E2FB7DD3256D3E8D009CB7D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2FB7DAF256D3E8A009CB7D6 /* Neeo Taxi */;
+			targetProxy = E2FB7DD2256D3E8D009CB7D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2FB7DB9256D3E8A009CB7D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FB7DBA256D3E8A009CB7D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2FB7DBE256D3E8C009CB7D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FB7DBF256D3E8C009CB7D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2FB7DD8256D3E8D009CB7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2FB7DD9256D3E8D009CB7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2FB7DDB256D3E8D009CB7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460782C9C4C76BA619E99D38 /* Pods-Neeo Taxi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM9N5FZEUV;
+				INFOPLIST_FILE = "Neeo Taxi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fd.Neeo-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Neeo Taxi/Neeo Taxi-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2FB7DDC256D3E8D009CB7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399C4D9A736822D39F23AEC3 /* Pods-Neeo Taxi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM9N5FZEUV;
+				INFOPLIST_FILE = "Neeo Taxi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fd.Neeo-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Neeo Taxi/Neeo Taxi-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2FB7DDE256D3E8D009CB7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM9N5FZEUV;
+				INFOPLIST_FILE = "Neeo TaxiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fd.Neeo-TaxiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neeo Taxi.app/Neeo Taxi";
+			};
+			name = Debug;
+		};
+		E2FB7DDF256D3E8D009CB7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM9N5FZEUV;
+				INFOPLIST_FILE = "Neeo TaxiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fd.Neeo-TaxiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neeo Taxi.app/Neeo Taxi";
+			};
+			name = Release;
+		};
+		E2FB7DE1256D3E8D009CB7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM9N5FZEUV;
+				INFOPLIST_FILE = "Neeo TaxiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fd.Neeo-TaxiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Neeo Taxi";
+			};
+			name = Debug;
+		};
+		E2FB7DE2256D3E8D009CB7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM9N5FZEUV;
+				INFOPLIST_FILE = "Neeo TaxiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fd.Neeo-TaxiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Neeo Taxi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2FB7DAB256D3E8A009CB7D6 /* Build configuration list for PBXProject "Neeo Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FB7DD8256D3E8D009CB7D6 /* Debug */,
+				E2FB7DD9256D3E8D009CB7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FB7DDA256D3E8D009CB7D6 /* Build configuration list for PBXNativeTarget "Neeo Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FB7DDB256D3E8D009CB7D6 /* Debug */,
+				E2FB7DDC256D3E8D009CB7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FB7DDD256D3E8D009CB7D6 /* Build configuration list for PBXNativeTarget "Neeo TaxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FB7DDE256D3E8D009CB7D6 /* Debug */,
+				E2FB7DDF256D3E8D009CB7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FB7DE0256D3E8D009CB7D6 /* Build configuration list for PBXNativeTarget "Neeo TaxiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FB7DE1256D3E8D009CB7D6 /* Debug */,
+				E2FB7DE2256D3E8D009CB7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2FB7DA8256D3E8A009CB7D6 /* Project object */;
+}

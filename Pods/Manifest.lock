@@ -1,0 +1,191 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.7.1)
+  - Alamofire (5.4.0)
+  - AlamofireNetworkActivityIndicator (3.1.0):
+    - Alamofire (~> 5.1)
+  - BEMCheckBox (1.4.1)
+  - BRYXBanner (0.8.4)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Cosmos (23.0.0)
+  - CRRefresh (1.1.3)
+  - DLRadioButton (1.4.12)
+  - Firebase (4.13.0):
+    - Firebase/Core (= 4.13.0)
+  - Firebase/Analytics (4.13.0):
+    - Firebase/Core
+  - Firebase/Core (4.13.0):
+    - FirebaseAnalytics (= 4.2.0)
+    - FirebaseCore (= 4.0.20)
+  - Firebase/Messaging (4.13.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.2.0)
+  - FirebaseAnalytics (4.2.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.20):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.2.0):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.5)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GoogleToolboxForMac/Defines (2.3.0)
+  - GoogleToolboxForMac/Logger (2.3.0):
+    - GoogleToolboxForMac/Defines (= 2.3.0)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.0)":
+    - GoogleToolboxForMac/Defines (= 2.3.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JGProgressHUD (2.2)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - KMPlaceholderTextView (1.4.0)
+  - ListPlaceholder (1.4)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - OTPFieldView (1.0.1)
+  - PlacesPicker (0.0.3):
+    - GoogleMaps (~> 3.1.0)
+    - GooglePlaces (~> 3.1.0)
+  - Planet (0.3.1)
+  - Protobuf (3.13.0)
+  - SideMenu (6.5.0)
+  - SkeletonView (1.11.0)
+  - SwiftyJSON (5.0.0)
+  - TOCropViewController (2.6.0)
+  - TPKeyboardAvoiding (1.3.5)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - Alamofire
+  - AlamofireNetworkActivityIndicator
+  - BEMCheckBox
+  - BRYXBanner
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Cosmos
+  - CRRefresh
+  - DLRadioButton
+  - Firebase
+  - Firebase/Analytics
+  - Firebase/Core
+  - Firebase/Messaging
+  - FirebaseInstanceID (= 2.0.0)
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - Kingfisher
+  - KMPlaceholderTextView (~> 1.4.0)
+  - ListPlaceholder
+  - NVActivityIndicatorView (~> 4.8.0)
+  - OTPFieldView
+  - PlacesPicker
+  - Planet
+  - SideMenu
+  - SkeletonView
+  - SwiftyJSON
+  - TOCropViewController
+  - TPKeyboardAvoiding
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - BEMCheckBox
+    - BRYXBanner
+    - Cosmos
+    - CRRefresh
+    - DLRadioButton
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - Kingfisher
+    - KMPlaceholderTextView
+    - ListPlaceholder
+    - nanopb
+    - NVActivityIndicatorView
+    - OTPFieldView
+    - PlacesPicker
+    - Planet
+    - Protobuf
+    - SideMenu
+    - SkeletonView
+    - SwiftyJSON
+    - TOCropViewController
+    - TPKeyboardAvoiding
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  AlamofireNetworkActivityIndicator: 6564782bd7b9e6c430ae67d9277af01907b01ca4
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  BRYXBanner: 4fbd266f96ce000e4c6cc9a0558c446bd88d9801
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseMessaging: 75cdb862e86c30e0913a2ff307e48d49357c5b73
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GoogleToolboxForMac: 1350d40e86a76f7863928d63bcb0b89c84c521c5
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  KMPlaceholderTextView: 2206c3df39979e9396e2d96fa9f427a8951121b0
+  ListPlaceholder: 08ddaddf67520a20fc52cf37160fb56aa64d071d
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  PlacesPicker: 3748ed50243c4b786dd8404610b279c96455f0c1
+  Planet: 8366988beff4e7b86c7530f67ce0172738c6ea24
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SkeletonView: cc84ce90a804dd0dd7198dd802833411c8a64eaf
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TOCropViewController: 3105367e808b7d3d886a74ff59bf4804e7d3ab38
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+
+PODFILE CHECKSUM: a77a5d946a2244c2cde947f45aff140b0c2d5ce8
+
+COCOAPODS: 1.10.1
